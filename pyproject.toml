@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "cookiecutter-cppyy-cmake"
+version = "0.1.0"
+description = ""
+authors = ["cbrown <vanguard737@gmail.com>"]
+license = "NA"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+cookiecutter = "^2.6.0"
+flake8 = "^7.1.1"
+pytest = "^8.3.2"
+pytest-cookies = "^0.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
